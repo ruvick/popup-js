@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popup-css</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="wrapper _loaded">
+
+    <section class="main">
+      <div class="container">
+
+        <div class="popup popup_callback">
+          <div class="popup__content">
+            <div class="popup__body">
+              <button class="popup__close" aria-label="Закрыть модальное окно"></button>
+              <div class="popup__item d-flex">
+                <div class="popup__img">
+                  <img src="img/popup.jpg" alt="">
+                </div>
+                <div class="popup__descp">
+                  <h2 class="popup__title">Заказать звонок</h2>
+                  <p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>
+                  <form action="#" class="popup__form">
+                    <div class="popup__form-line">
+                      <input type="text" name="name" placeholder="Введите Имя*" class="popup__form-input">
+                      <input type="tel" name="tel" placeholder="Введите Телефон*" class="popup__form-input">
+                      <input type="email" name="email" placeholder="Введите Email*" class="popup__form-input">
+                    </div>
+                    <p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
+                        конфиденциальности</a></p>
+                    <button class="popup__form-btn">Заказать</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#callback" class="popup-link _popup-link" aria-label="Открыть модальное окно">Открыть Popup</a>
+
+      </div>
+    </section>
+
+  </div>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
